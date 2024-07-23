@@ -7,7 +7,7 @@ export default function Hero() {
         subtitle: 'Im a Full-stack developer,IOT specialist and 3d Model Designer',
         social: {
             twitter: 'https://twitter.com/jvlcode',
-            facebook: 'https://facebook.com/jvlcode',
+            Instagram: 'https://facebook.com/jvlcode',
             linkedin: 'https://in.linkedin.com/company/jvl-code'
         }
     }
@@ -20,7 +20,7 @@ export default function Hero() {
             </h1>
             <div className='flex py-10'>
                 <a href={config.social.twitter} className='pr-5 hover:text-white'><AiOutlineTwitter size={40} /></a>
-                <a href={config.social.AiOutlineInstagram} className='pr-5 hover:text-white'><AiOutlineFacebook size={40}/></a>
+                <a href={config.social.Instagram} className='pr-5 hover:text-white'><AiOutlineFacebook size={40}/></a>
                 <a href={config.social.linkedin} className='hover:text-white'><AiOutlineLinkedin size={40}/></a>
             </div>
        </div>
