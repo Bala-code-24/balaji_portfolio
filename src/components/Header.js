@@ -5,9 +5,9 @@ export default function Header() {
     const [toggleMenu, setToggleMenu]  = useState(false);
 
     return <header className="flex justify-between px-5 py-2 bg-secondary ">
-        <a className="font-bold text-black" href="#">BALAJI SANTHANAM</a>
+        <a className="font-bold text-black" href="#" alt="balaji">BALAJI SANTHANAM</a>
         <nav className="hidden md:block">
-            <ul className="flex text-white ">
+            <ul className="flex text-black ">
                 <li><a href="/">Home</a></li>
                 <li><a href="/#about">About</a></li>
                 <li><a href="/#projects">Projects</a></li>
@@ -17,7 +17,7 @@ export default function Header() {
         </nav>
         {toggleMenu && <nav className="block md:hidden ">
             <ul onClick={() => setToggleMenu(!toggleMenu)} className="flex flex-col text-white  mobile-nav">
-                <li><a href="#">Home</a></li>
+                <li><a href="#" alt="">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
