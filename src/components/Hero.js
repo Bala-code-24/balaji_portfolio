@@ -15,7 +15,7 @@ export default function Hero() {
 
     return <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center'>
        <div className='md:w-1/2 flex flex-col'>
-            <h1 className=' text-white text-6xl font-hero-font'>Hi, <br/> Im <span className='text-black'>Balaji</span> here
+            <h1 className=' text-white text-6xl font-hero-font'>Hi, <br/> Im <span className='text-blue-600'>Balaji</span> here
                 <p className='text-2xl'>{config.subtitle}</p>
             </h1>
             <div className='flex py-10'>
