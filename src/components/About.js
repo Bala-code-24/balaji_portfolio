@@ -9,11 +9,7 @@ export default function About () {
 
     return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>
         <div className='py-5 md:w-1/2'>
-<<<<<<< HEAD
             <img alt="hi"src={AboutImg} />
-=======
-            <img alt="" src={AboutImg} />
->>>>>>> 1dfd800b6819d4577b0f7cf2adc70b758503ed9a
         </div>
         <div className='md:w-1/2 flex justify-center'>
             <div className='flex flex-col justify-center text-black'>
